@@ -9,7 +9,7 @@ function SaveID(){
     return;
   }
   localStorage.setItem('id', document.getElementById('idInput').value);
-  localStorage.setItem('session', 'T');
+  localStorage.setItem('session', 'Card');
   window.location.href='Adding_numbers5.html';
   return;
 }
