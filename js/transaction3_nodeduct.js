@@ -3,8 +3,8 @@ var app = new Vue({
     data: {
         userid: localStorage.getItem('id'),
         userSession: localStorage.getItem("session"),
-        type_ind: [1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 
-                   1, 1, 0, 1, 0, 1, 1, 1, 0, 1],
+        type_ind: [1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 
+                   1, 1, 0, 1, 0, 1, 0, 1, 0, 1],
 
         price: 0,
         pay: 0,
